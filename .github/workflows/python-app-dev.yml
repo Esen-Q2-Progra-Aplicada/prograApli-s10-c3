@@ -13,7 +13,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    step:
+    steps:
     - uses: actions/checkout@v2
     - name: setup python 3.9
       uses: actions/setup-python@v2
