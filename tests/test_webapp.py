@@ -8,6 +8,5 @@ def test_webapp():
 
 
 def test_webapp_site_home():
-    response = requests.get("http://127.0.0.1:5000/")
-    print(response)
+    response = requests.get("http://www.google.com")
     assert response.status_code == 200
